@@ -1215,4 +1215,35 @@ body {
   animation-play-state: paused !important;
 }
 
+/* CONTAINER FOTO */
+.side-image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; /* DI BELAKANG BUNGA */
+  opacity: 0.9;
+}
+
+/* FOTO */
+.side-image img {
+  width: 180px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.side-image img:hover {
+  transform: scale(1.05);
+}
+
+/* POSISI KIRI */
+.side-image.left {
+  left: 5%;
+}
+
+/* POSISI KANAN */
+.side-image.right {
+  right: 5%;
+}
 /*# sourceMappingURL=style.css.map */
